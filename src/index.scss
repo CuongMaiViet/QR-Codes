@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 0px;
+}
+html {
+  font-size: 50%; // 1rem = 8px
+}
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 56.25%; // 1rem = 9px
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%; // 1rem = 10px
+  }
+}
